@@ -81,7 +81,7 @@ export default class HomeScreen extends Component{
           />
           <View style={styles.inputBoxContainer}>
         
-          <Text 
+          {/*<Text 
             onChangeText={text => {
                 this.setState({
                   text: text,
@@ -92,7 +92,7 @@ export default class HomeScreen extends Component{
                   definition : ""
                 });
             }}
-          />
+          />*/}
         {/*   <input 
            onChangeText={text => {
               this.setState({
@@ -120,7 +120,7 @@ export default class HomeScreen extends Component{
             }}
           /> 
         */}
-        {/*
+        
             <TextInput
               style={styles.inputBox}
               onChangeText={text => {
@@ -135,7 +135,7 @@ export default class HomeScreen extends Component{
               }}
               value={this.state.text}
             />
-            */}
+            
             <TouchableOpacity
               style={styles.searchButton}
               onPress={() => {
@@ -232,3 +232,4 @@ const styles = StyleSheet.create({
     fontWeight:'bold'
   }
 });
+ 
